@@ -2,36 +2,69 @@
     "questions": [
  
         {
-            "flashCardFront": "<img src='../assets/images/questao1.jpeg' />",
-            "flashCardBack": "Helicopter",
+            "flashCardFront": "<img src='http:assets/images/tresquadrados.png' />",
+            "flashCardBack": "3",
             "flashCardFlipped": false,
-            "questionText": "What is this?",
+            "questionText": "Qual a quantidade?",
             "answers": [
-                {"answer": "Helicopter", "correct": true, "selected": false},
-                {"answer": "Plane", "correct": false, "selected": false},
-                {"answer": "Truck", "correct": false, "selected": false}
+                {"answer": "3", "correct": true, "selected": false},
+                {"answer": "5", "correct": false, "selected": false},
+                {"answer": "2", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='http://placehold.it/200' />",
-            "flashCardBack": "Plane",
+            "flashCardFront": "<img src='http:assets/images/quatromaistres.png' />",
+            "flashCardBack": "7",
             "flashCardFlipped": false,
-            "questionText": "What is this?",
+            "questionText": "Qual a soma?",
             "answers": [
-                {"answer": "Helicopter", "correct": false, "selected": false},
-                {"answer": "Plane", "correct": true, "selected": false},
-                {"answer": "Truck", "correct": false, "selected": false}
+                {"answer": "14", "correct": false, "selected": false},
+                {"answer": "7", "correct": true, "selected": false},
+                {"answer": "5", "correct": false, "selected": false}
             ]
         },
         {
-            "flashCardFront": "<img src='http://placehold.it/200' />",
-            "flashCardBack": "Truck",
+            "flashCardFront": "<img src='http:assets/images/sequencia.png' />",
+            "flashCardBack": "34, 40, 23",
             "flashCardFlipped": false,
-            "questionText": "What is this?",
+            "questionText": "Quais são os números maiores que 20?",
             "answers": [
-                {"answer": "Helicopter", "correct": false, "selected": false},
-                {"answer": "Plane", "correct": false, "selected": false},
-                {"answer": "Truck", "correct": true, "selected": false}
+                {"answer": "8, 34, 18", "correct": false, "selected": false},
+                {"answer": "23, 15, 40", "correct": false, "selected": false},
+                {"answer": "34, 40, 23", "correct": true, "selected": false}
+            ]
+        },
+	{
+            "flashCardFront": "<img src='http:assets/images/antecessor-sucessor.png' />",
+            "flashCardBack": "9 Antessessor e 11 Sucessor",
+            "flashCardFlipped": false,
+            "questionText": "Qual o Antecessor e o Sucessor?",
+            "answers": [
+                {"answer": "8 Sucessor e 11 Antecessor", "correct": false, "selected": false},
+                {"answer": "9 Antecessor e 11 Sucessor", "correct": true, "selected": false},
+                {"answer": "11 Sucessor e 12 Antecessor", "correct": false, "selected": false}
+            ]
+        },
+	{
+            "flashCardFront": "<img src='http:assets/images/relogio.png' />",
+            "flashCardBack": "09:45",
+            "flashCardFlipped": false,
+            "questionText": "Que horas são?",
+            "answers": [
+                {"answer": "09:45", "correct": true, "selected": false},
+                {"answer": "09:15", "correct": false, "selected": false},
+                {"answer": "10:30", "correct": false, "selected": false}
+            ]
+        },
+	{
+            "flashCardFront": "<img src='http:assets/images/complete.png' />",
+            "flashCardBack": "29",
+            "flashCardFlipped": false,
+            "questionText": "Complete com número que está faltando.",
+            "answers": [
+                {"answer": "28", "correct": false, "selected": false},
+                {"answer": "26", "correct": false, "selected": false},
+                {"answer": "29", "correct": true, "selected": false}
             ]
         }
  

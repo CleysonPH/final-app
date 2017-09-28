@@ -1,26 +1,20 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+App de perguntas e respostas desenvolvido com o [Ionic Framework](http://ionicframework.com/docs/).
 
-## How to use this template
+## App do Projeto Integrador
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+App desenvolvido como projeto final da Disciplina *Projeto Integrador III*
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+### Como usar
 
-### With the Ionic CLI:
+Para utilizar esse app no seu computador é necessario alguns pré requisitos: 
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+1. NodeJS
+2. Ionic
+3. Cordova
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+Tendo os programas acima devidamente instalados em sua máquina basta baixar o projeto em seu computador, pelo bash entrar na pasta do projeto e rodar os seguintes comandos:
 
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+'''
+$ npm install
+$ ionic serve
+'''
